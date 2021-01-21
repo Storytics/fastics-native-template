@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description component UI Should render properly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "grey",
+        "fontSize": 14,
+        "marginTop": 2,
+      },
+    ]
+  }
+>
+  Fastics Native Description
+</Text>
+`;

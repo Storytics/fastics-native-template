@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title component UI Should render properly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "black",
+        "fontSize": 24,
+        "marginTop": 120,
+      },
+    ]
+  }
+>
+  Fastics Native Title
+</Text>
+`;
