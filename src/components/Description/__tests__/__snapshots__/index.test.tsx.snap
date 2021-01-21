@@ -5,7 +5,7 @@ exports[`Description component UI Should render properly 1`] = `
   style={
     Array [
       Object {
-        "color": "grey",
+        "color": "gray",
         "fontSize": 14,
         "marginTop": 2,
       },

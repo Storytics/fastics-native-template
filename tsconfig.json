@@ -11,7 +11,9 @@
     "strict": true,
     "paths": {
       "*": ["src/*"],
-      "components/*": ["components/*"]
+      "components/*": ["components/*"],
+      "utils/*": ["utils/*"],
+      "theme/*": ["theme/*"]
     }
   },
   "include": ["./src/**/*", "**/*.ts", "**/*.tsx"],
