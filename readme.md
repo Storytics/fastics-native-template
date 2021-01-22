@@ -1,4 +1,4 @@
-## !\[fastics-native\](https://i.imgur.com/MVaBUss.png)
+## !\[FasticsNative\](https://i.imgur.com/MVaBUss.png)
 
 ## Fastics Native
 
