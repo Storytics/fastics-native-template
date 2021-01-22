@@ -1,5 +1,13 @@
+## !\[fastics-native\](https://i.imgur.com/MVaBUss.png)
+
 ## Fastics Native
 
-A boilerplate for Expo (React-Native) with batteries included (TypeScript, Styled-Components, Eslint, Prettier, Testing-Library)
+A boilerplate for Expo (React-Native) with batteries included (TypeScript, Styled-Components, Eslint, Prettier, Jest)
 
-### Packages
+### Stack
+
+*   TypeScript
+*   Expo
+*   Prettier
+*   Eslint + Airbnb Rules
+*   Styled-Components
