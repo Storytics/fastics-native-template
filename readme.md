@@ -1,4 +1,4 @@
-## !\[FasticsNative\](https://i.imgur.com/MVaBUss.png)
+![](https://user-images.githubusercontent.com/3766024/105522456-2bf1fa00-5cd5-11eb-85a1-33472541ba55.png)
 
 ## Fastics Native
 
