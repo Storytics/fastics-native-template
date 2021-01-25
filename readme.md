@@ -11,3 +11,17 @@ A boilerplate for Expo (React-Native) with batteries included (TypeScript, Style
 *   Prettier
 *   Eslint + Airbnb Rules
 *   Styled-Components
+
+\## Install
+
+with npm
+
+\`\`\`bash  
+npm install  
+\`\`\`
+
+with Yarn
+
+\`\`\`bash  
+yarn install  
+\`\`\`
