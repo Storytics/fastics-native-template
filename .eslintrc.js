@@ -18,13 +18,7 @@ module.exports = {
     sourceType: "module",
     project: ["tsconfig.json"],
   },
-  ignorePatterns: [
-    "node_modules/",
-    "build/",
-    "app.json",
-    ".eslintrc.js",
-    "jest.config.js",
-  ],
+  ignorePatterns: ["node_modules/", "build/", "app.json", ".eslintrc.js"],
   rules: {
     "import/no-unresolved": 0,
     "react/jsx-filename-extension": [
@@ -37,8 +31,6 @@ module.exports = {
       "error",
       {
         singleQuote: false,
-        trailingComma: "all",
-        arrowParens: "avoid",
         endOfLine: "auto",
       },
     ],
@@ -49,5 +41,8 @@ module.exports = {
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": ["error"],
     "@typescript-eslint/ban-ts-comment": "off",
+    "global-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
   },
 };

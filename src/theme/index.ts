@@ -2,6 +2,7 @@ const Theme = {
   colors: {
     title: "black",
     description: "gray",
+    background: "white",
   },
 };
 

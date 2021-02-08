@@ -6,11 +6,13 @@ A boilerplate for Expo (React-Native) with batteries included (TypeScript, Style
 
 ### Stack
 
-*   TypeScript
-*   Expo
-*   Prettier
-*   Eslint + Airbnb Rules
-*   Styled-Components
+- TypeScript
+- Expo
+- Prettier
+- Eslint + Airbnb Rules
+- Styled-Components
+- React Navigation
+- i18n-js
 
 ### Install
 

@@ -13,7 +13,13 @@
       "*": ["src/*"],
       "components/*": ["components/*"],
       "utils/*": ["utils/*"],
-      "theme/*": ["theme/*"]
+      "theme/*": ["theme/*"],
+      "screens/*": ["screens/*"],
+      "navigation/*": ["navigation/*"],
+      "locales/*": ["locales/*"],
+      "context/*": ["context/*"],
+      "hooks/*": ["hooks/*"],
+      "database/*": ["database/*"]
     }
   },
   "include": ["./src/**/*", "**/*.ts", "**/*.tsx"],
