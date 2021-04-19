@@ -12,17 +12,15 @@ import { RootStackParamList } from "./types";
 
 const Stack = createStackNavigator<RootStackParamList>();
 
-const Navigation: React.FC = () => {
-  return (
-    <SafeAreaProvider>
-      <NavigationContainer>
-        <Stack.Navigator initialRouteName="Home" headerMode="none" mode="card">
-          <Stack.Screen name="Home" component={HomeScreen} />
-          <Stack.Screen name="Welcome" component={WelcomeScreen} />
-        </Stack.Navigator>
-      </NavigationContainer>
-    </SafeAreaProvider>
-  );
-};
+const Navigation: React.FC = () => (
+  <SafeAreaProvider>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home" headerMode="none" mode="card">
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Welcome" component={WelcomeScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  </SafeAreaProvider>
+);
 
 export default Navigation;

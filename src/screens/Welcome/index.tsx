@@ -14,18 +14,16 @@ interface Props {
   navigation: WelcomeScreenNavigationProp;
 }
 
-const WelcomeScreen: React.FC<Props> = ({ navigation }) => {
-  return (
-    <SafeAreaView>
-      <Container>
-        <Title>{i18n.t("welcome")} </Title>
-        <Button
-          title={i18n.t("goBack")}
-          onPress={() => navigation.navigate("Home")}
-        />
-      </Container>
-    </SafeAreaView>
-  );
-};
+const WelcomeScreen: React.FC<Props> = ({ navigation }) => (
+  <SafeAreaView>
+    <Container>
+      <Title>{i18n.t("welcome")} </Title>
+      <Button
+        title={i18n.t("goBack")}
+        onPress={() => navigation.navigate("Home")}
+      />
+    </Container>
+  </SafeAreaView>
+);
 
 export default WelcomeScreen;

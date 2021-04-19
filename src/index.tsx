@@ -6,16 +6,14 @@ import theme from "theme/index";
 // Navigation
 import Navigation from "navigation/index";
 
-const App: React.FC = () => {
-  return (
-    <ThemeProvider theme={theme}>
-      <StatusBar
-        backgroundColor={theme.colors.background}
-        barStyle="dark-content"
-      />
-      <Navigation />
-    </ThemeProvider>
-  );
-};
+const App: React.FC = () => (
+  <ThemeProvider theme={theme}>
+    <StatusBar
+      backgroundColor={theme.colors.background}
+      barStyle="dark-content"
+    />
+    <Navigation />
+  </ThemeProvider>
+);
 
 export default App;
