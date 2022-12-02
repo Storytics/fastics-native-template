@@ -11,7 +11,7 @@ import i18n from "locales/index";
 // Types
 import { HomeScreenNavigationProp } from "navigation/types";
 
-interface Props {
+export interface Props {
   navigation: HomeScreenNavigationProp;
 }
 

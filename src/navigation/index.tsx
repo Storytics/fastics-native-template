@@ -15,7 +15,7 @@ const Stack = createStackNavigator<RootStackParamList>();
 const Navigation: React.FC = () => (
   <SafeAreaProvider>
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" headerMode="none" mode="card">
+      <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Welcome" component={WelcomeScreen} />
       </Stack.Navigator>

@@ -1,13 +1,13 @@
-module.exports = {
+/** @returns {Promise<import('jest').Config>} */
+const config = {
   preset: "jest-expo",
   testEnvironment: "node",
   roots: ["<rootDir>/src"],
   transform: {
-    "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js",
     "^.+\\.(ts|tsx)?$": "ts-jest",
   },
   transformIgnorePatterns: [
-    "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)",
+    "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)",
   ],
   testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|ts?|tsx?)$",
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
@@ -24,3 +24,5 @@ module.exports = {
   },
   setupFiles: ["<rootDir>/jest.setup.ts"],
 };
+
+module.exports = config;

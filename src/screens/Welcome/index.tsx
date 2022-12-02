@@ -10,7 +10,7 @@ import i18n from "locales/index";
 // Types
 import { WelcomeScreenNavigationProp } from "navigation/types";
 
-interface Props {
+export interface Props {
   navigation: WelcomeScreenNavigationProp;
 }
 
